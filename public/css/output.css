@@ -489,13 +489,6 @@ body {
   position: relative;
 }
 
-.inset-0{
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-}
-
 .top-0{
   top: 0px;
 }
@@ -761,6 +754,11 @@ body {
   padding-right: 1rem;
 }
 
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .pt-12{
   padding-top: 3rem;
 }
@@ -821,10 +819,6 @@ body {
 .text-almost-white{
   --tw-text-opacity: 1;
   color: hsl(0 0% 98% / var(--tw-text-opacity));
-}
-
-.opacity-75{
-  opacity: 0.75;
 }
 
 .shadow-xl{
@@ -1009,6 +1003,11 @@ body {
   .md\:px-10{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .md\:py-7{
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
   }
 
   .md\:pt-12{
